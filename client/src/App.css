@@ -1,0 +1,556 @@
+.App { 
+  text-align: center;
+  
+}
+
+
+.App-header {
+  background:url('https://cdn.wallpapersafari.com/26/85/rdGj8M.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#navbar li {
+  float: left;
+  margin-right: 0.5em;
+  text-align: center;
+  padding: 0.25em 1em;
+  background-color: #d0dfee; 
+  color: #4312AE; 
+  border: 2px solid black;
+  border-top-left-radius: 2em 2em; 
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+  transition: all 0.5s;
+}
+
+.signinput{
+  min-height: 2vh;
+  padding: 0.5em;
+  margin: .8em;
+  border-top-left-radius: 2em 2em; 
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+}
+
+ul#navbar li:hover {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+form {
+  background: none;   
+  color: #222222;
+  padding: 1.5rem 2rem;
+  text-align: left;
+}
+
+.sign {
+  background: url("https://www.seekpng.com/png/full/23-239283_chef-logos-graphic-freeuse-stock-chef-vector-png.png");
+  background-size: cover;
+color: black;
+  border: .1em solid #66492e;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(41, 28, 24);
+  color: #ffffff;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin: 1.2rem;
+  max-width: 30vw;
+  min-height: 60vh;
+  text-align: center;
+  
+}
+ 
+#niceheader{
+  border: .1em solid #66492e;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(41, 28, 24);
+  border-top-left-radius: 2em 2em; 
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+  transition: all .7s;
+  min-width: 20em;
+}
+
+#niceheader:hover{
+  border: .08em solid #66492e;
+  box-shadow: .5rem .5rem .5rem .5rem rgb(41, 28, 24);
+
+}
+#allneeded{
+  font-family:'Charm', cursive;
+  color: burlywood;
+  border: .05em solid #8f9a9c;
+  box-shadow: .2rem .2rem .2rem .2rem rgb(41, 28, 24);
+  border-top-left-radius: 1em 1em; 
+  border-top-right-radius: 1em 1em; 
+  border-bottom-left-radius: 1em 1em;
+  border-bottom-right-radius: 1em 1em;
+  min-width: 10em;
+}
+
+.psections{
+  font-family: 'Courgette', cursive;
+  background: rgba(143, 98, 85, 0.2);
+  color: burlywood;
+  border: .05em solid #8f9a9c;
+  box-shadow: .2rem .2rem .2rem .2rem rgb(41, 28, 24);
+  border-top-left-radius: 1em 1em; 
+  border-top-right-radius: 1em 1em; 
+  border-bottom-left-radius: 1em 1em;
+  border-bottom-right-radius: 1em 1em;
+  transition: all .7s;
+}
+
+.psections:hover{
+  border: .08em solid rgb(146, 110, 79);
+  font-size: larger;
+  border-top-left-radius: 1.5em 1.5em; 
+  border-top-right-radius: 1.5em 1.5em; 
+  border-bottom-left-radius: 1.5em 1.5em;
+  border-bottom-right-radius: 1.5em 1.5em;
+  box-shadow: .4rem .4rem .4rem .4rem rgb(41, 28, 24);
+}
+
+
+.editaccount{
+  background-size: cover;
+  position:relative;
+  left:160px;
+color: black;
+  border: .1em solid #66492e;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(41, 28, 24);
+  color: #ffffff;
+  border-radius: 1em;
+ max-width: 30vw;
+  max-height: 80vh;
+}
+
+.editinput{
+
+  min-height: 3.5vh;
+  padding: 0.5em;
+  margin: .8em;
+  border-color: red;
+  border-top-left-radius: 2em 2em; 
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+}
+
+ #image{
+  border-color:black;
+}
+
+
+.menu-container{
+  border: 2em navy;
+  background-color:sandybrown;
+  border: .1em solid #66492e;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(41, 28, 24);
+  color: #ffffff;
+  border-radius: 1em;
+  display:grid;
+  text-size-adjust: 100%;
+  grid-template-rows:  1fr  ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content:center;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 4rem;
+  transition: all 1.2s;
+}
+
+.profilelayout{
+  display:grid;
+  margin: auto;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.mappedmeals{
+  margin:0.3em;
+}
+.menu-container:hover{
+background: slateblue;
+border:.8em rgb(17, 2, 58);
+color:black;
+border-style: groove;
+  display:grid;
+  grid-template-rows:  1fr  ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content:center;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 4rem;
+}
+.nonmenucontainer{
+border: 2em navy;
+  background-color:sandybrown;
+  border: .1em solid #66492e;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(41, 28, 24);
+  color: #ffffff;
+  border-radius: 1em;
+  display:grid;
+  text-size-adjust: 100%;
+  grid-template-rows:  1fr  ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content:center;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 4rem;
+  transition: all 1.2s;
+}
+
+.nonmenucontainer:hover{
+  background: slateblue;
+  border:1.2em rgb(199, 193, 218);
+  box-shadow: 0 0 1rem 1rem rgb(161, 143, 137);
+  color:black;
+    display:grid;
+    grid-template-rows:  1fr  ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 4rem;
+}
+
+.profilemenucontainer{
+    background-color:sandybrown;
+    border: .1em solid #66492e;
+    box-shadow: 1rem 1rem 1rem 1rem rgb(41, 28, 24);
+    color: #ffffff;
+    font-family: 'Charm',cursive;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 1.2em;
+    border-radius: 1em;
+    text-size-adjust: 100%;
+    /* padding: 1rem; */
+    transition: all .8s;
+  }
+  
+  .profilemenucontainer:hover{
+    background: slateblue;
+    border:1.2em rgb(199, 193, 218);
+    box-shadow: 0 0 1rem 1rem rgb(161, 143, 137);
+    color:black;
+      padding: .3rem;
+  }
+img{
+  border:powderblue;
+  border-radius: 50%;
+  max-height: 35vh;
+
+}
+
+.DELETEbutton {
+  align-items: bottom;
+  height: 20%;
+  border-radius:2em;
+  padding:0.4em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  display: inline-block;
+        background-color: rgb(94, 8, 8);
+        border-radius: .3em;
+        border: .1em double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: .7em;
+        padding: .8em;
+        min-width: 14vw;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 1.5rem;
+}
+
+.DELETEbutton:hover{
+  background-color: red;
+}
+
+.errorbutton{
+  font-family:'Charm', cursive;
+  height: 20%;
+  border-radius:2em;
+  padding:0.4em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  display: inline-block;
+        background-color: rgb(117, 180, 105);
+        border-radius: .3em;
+        border: .1em double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: .7em;
+        padding: .8em;
+        min-width: 14vw;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 1.5rem;
+}
+
+.errorbutton:hover{
+
+  background-color: chartreuse;
+}
+
+.valid{
+  position:fixed;
+  bottom:0;
+  margin: auto;
+  width: 50;
+  background:none;
+}
+
+.loggedin{
+  position:sticky;
+  bottom:0;
+  margin: auto;
+  width: 50;
+  display:none;
+}
+
+.username{
+  padding:10px;
+  border-radius:10px;
+  margin: 1rem;
+  box-shadow: slategray;
+}
+
+.password{
+  padding:10px;
+  border-radius:10px;
+  margin: 1rem;
+  box-shadow: slategray;
+}
+
+button{
+  border-radius:5px
+}
+
+.loginbutton{
+  padding:0.4em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+  box-sizing: border-box;
+  font-weight:500;
+  font-size: initial;
+  color: #276488;
+  text-shadow: 0 0.08em 0.08em rgba(0,0,0,0.35);
+  transition: all 0.8s;
+  text-align:center;
+  cursor:pointer;
+
+
+}
+
+
+.loginbutton:hover{
+  background-color: #276488;
+  color:white;
+}
+.updaterecipe{
+  position:relative;
+  border: .05rem solid red;
+  border-radius: 1em;
+  min-height: 10vh;
+  padding: 0.5em;
+  margin: 1.2rem;
+
+}
+.likebutton{
+  background-color: lawngreen;
+  margin: 2em;
+  border:0.16em solid rgba(255,255,255,0);
+  border: 2px solid black;
+  border-top-left-radius: 2em 2em; 
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+  transition: all 0.6s;
+}
+
+.likebutton:hover{
+  background-color:limegreen;
+  margin: 2em;
+  border:0.3em solid rgba(255,255,255,0);
+  border: 2px solid black;
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+}
+
+.unlikebutton{
+  background-color:tomato;
+  margin: 2em;
+  border:0.16em solid rgba(255,255,255,0);
+  border: 2px solid black;
+  border-top-left-radius: 2em 2em;
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+  transition: all 0.6s;
+}
+
+.unlikebutton:hover{
+  background-color:red;
+  margin: 2em;
+  border:0.3em solid rgba(255,255,255,0);
+  border: 2px solid black;
+  border-top-left-radius: 2em 2em; 
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+}
+
+.recipeForm{
+  background: none;
+}
+
+#ingredients, #instructions, #review, #details{
+min-height:30vh;
+min-width:40vw;
+
+}
+
+#description{
+  position: absolute;
+  min-height:10vh;
+  min-width:25vw;
+  bottom: -80%;
+  right: 60%;
+}
+
+.descriptionput{
+  padding:0.4em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+  box-sizing: border-box;
+  font-weight:500;
+  font-size: initial;
+  color: #276488;
+  text-shadow: 0 0.08em 0.08em rgba(0,0,0,0.35);
+  transition: all 0.8s;
+  text-align:center;
+  cursor:pointer;
+  position:absolute;
+  bottom:-90%;
+  right: 70%;
+}
+
+.descriptionput:hover{
+  background-color: #276488;
+  color:white;
+}
+
+#cooktime{
+  width:65vw;
+}
+.createrecipebutton{
+  background-color: lightblue;
+  position:relative;
+  margin: 1em;
+  border:0.16em solid rgba(255,255,255,0);
+  border: 2px solid black;
+  border-top-left-radius: 2em 2em; 
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+  transition: all .5s;
+}
+
+.createrecipebutton:hover{
+  background-color: rgb(92, 143, 160);
+  position:relative;
+  margin: 1em;
+  border:0.16em solid rgba(255,255,255,0);
+  border: 2px solid black;
+  border-top-left-radius: 2em 2em; 
+  border-top-right-radius: 2em 2em; 
+  border-bottom-left-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+}
+
+.home{
+  background:cover;
+}
+
+.header{
+  font-family: 'Kranky', cursive;
+}
+
+.signupbutton{
+  padding:0.4em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+  box-sizing: border-box;
+  font-weight:500;
+  font-size: initial;
+  color: #276488;
+  text-shadow: 0 0.08em 0.08em rgba(0,0,0,0.35);
+  transition: all 0.8s;
+  text-align:center;
+  cursor:pointer;
+}
+
+.signupbutton:hover{
+  background-color: #276488;
+  color:white;
+}
+
+h1{
+  font-family: 'Lily Script One', cursive;
+  color:rgb(226, 61, 32);
+}
+
+.signin{
+  font-family: 'Frijole', cursive;
+  color:black;
+}
+
+#required{
+  font-family: 'Friloje', cursive;
+  color:red;
+}
+
+.profileimage{
+  position:relative;
+  bottom:-10%;
+}
+
+.menutext{
+  font-family:'Concert One', cursive;
+}
+
+.nonboringtext{
+  font-family: 'Great Vibes', cursive;
+}
+
+.sociallinks{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+#success{
+  font-family: 'Concert One', cursive;
+  color:green;
+}
