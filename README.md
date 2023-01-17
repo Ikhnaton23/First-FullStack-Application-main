@@ -2,7 +2,6 @@
 
 *First Full-stack Project!*
 
-[Trello!](https://trello.com/invite/b/iVd385du/36c657cd0a2d9f3e7cfa63008ca5bc56/first-fullstack-application)
 
 # Recipe Website 
 ## ***Description***
